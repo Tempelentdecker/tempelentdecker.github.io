@@ -7,24 +7,33 @@
             background-color: blue;
             font-family: 'Comic Sans MS', sans-serif;
             color: black;
-            }
-            img {
-                display: block;
-                width: 300px;
-                height: auto;
-                margin-top: 10px;
-            }
-            iframe {
-                   display: block;
-                   width: 100%;
-                   height: 600;
-                   margin-top: 20px
+        }
+        img {
+            display: block;
+            width: 300px;
+            height: auto;
+            margin-top: 10px;
+        }
+        .iframe-holder {
+            width: 100%;
+            padding: 10px;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 600px;
+            margin-top: 20px;
+        }
         </style>
     </head>
     <body>
         <h1>Willkommen auf meiner Website!</h1>
         <p>Serveradresse: tempel.minecraftserver.de</p>
-         <iframe src="https://minecraft.nitrado.net/map/8467095"></iframe>
+        
+        <div class="iframe-holder">
+            <iframe src="https://minecraft.nitrado.net/map/8467095"></iframe>
+        </div>
+        
         <img src="Vertauscht.png"></img>
     </body>
 </html>
